@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/Sneakers favicon.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>E-commerce sneakers page</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Lightbox -->
+    <section id="lightbox">
+      <button class="fa-solid fa-xmark" id="close-box"></button>
+      <img src="images/image-product-1.jpg" alt="image-product-1">
+      <div class="btns">
+        <button class="fa-solid fa-chevron-left" disabled></button>
+        <button class="fa-solid fa-chevron-right"></button>
+      </div>
+      <div class="images">
+        <div class="active">
+          <img src="images/image-product-1-thumbnail.jpg" alt="image-product-1">
+        </div>
+        <div>
+          <img src="images/image-product-2-thumbnail.jpg" alt="image-product-2">
+        </div>
+        <div>
+          <img src="images/image-product-3-thumbnail.jpg" alt="image-product-3">
+        </div>
+        <div>
+          <img src="images/image-product-4-thumbnail.jpg" alt="image-product-4">
+        </div>
+      </div>
+    </section>
+    <!-- Header -->
+    <header>
+      <section>
+        <button class="fa-solid fa-bars"></button>
+        <h1>Sneakers</h1>
+        <div id="nav-list">
+          <button class="fa-solid fa-xmark"></button>
+          <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <button class="fa-solid fa-cart-shopping">
+          <b>0</b>
+        </button>
+        <img src="images/image-avatar.png" alt="image-avatar">
+        <div id="cart-empty">
+          <h4>Cart</h4>
+          <p>Your cart is empty</p>
+        </div>
+        <div id="cart-fill">
+          <h4>Cart</h4>
+          <div>
+            <img src="images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+            <p>Fall Limited Edition Sneakers
+              $125.00 &cross; <span></span> <strong>$<b></b></strong>
+            </p>
+            <button class="fa-regular fa-trash-can"></button>
+          </div>
+          <button>Checkout</button>
+        </div>
+      </section>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Images Section -->
+      <section>
+        <img src="images/image-product-1.jpg" alt="image-product-1">
+        <div class="btns">
+          <button class="fa-solid fa-chevron-left" disabled></button>
+          <button class="fa-solid fa-chevron-right"></button>
+        </div>
+        <div class="images">
+          <div class="active">
+            <img src="images/image-product-1-thumbnail.jpg" alt="image-product-1">
+          </div>
+          <div>
+            <img src="images/image-product-2-thumbnail.jpg" alt="image-product-2">
+          </div>
+          <div>
+            <img src="images/image-product-3-thumbnail.jpg" alt="image-product-3">
+          </div>
+          <div>
+            <img src="images/image-product-4-thumbnail.jpg" alt="image-product-4">
+          </div>
+        </div>
+      </section>
+      <!-- Content Section -->
+      <section id="content">
+        <p>Sneaker Company</p>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <!-- Price Section -->
+        <div id="price">
+          <h3>$125.00 <span>50%</span></h3>
+          <p>$250.00</p>
+        </div>
+        <!-- Amount of product Section -->
+        <div id="nums-product">
+          <div>
+            <button>&minus;</button>
+            <b>0</b>
+            <button>+</button>
+          </div>
+          <button><span class="fa-solid fa-cart-shopping"></span> Add to cart</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
